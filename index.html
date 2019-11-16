@@ -7,75 +7,96 @@
         <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="main-block">
         <header>
-            <nav>
-        
-                    <div>
-                        <div>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="row no-gutters">
+                        <div class="col-2 logo">
                             <a href="#body">
                                 <img src="multimedia/logo.png" alt="Doob">
                             </a>
                         </div>
                 
-                        <div>
+                        <div class="col-sm-7 main-menu">
                             <ul>
-                                <li><a href="#body">Home.</a></li>
-                                <li><a href="#aboutUs">About us.</a></li>
-                                <li><a href="#portfolio">Portfolio.</a></li>
-                                <li><a href="#blog">Blog.</a></li>
-                                <li><a href="#contactUs">Contact us.</a></li>
+                                <li class="col-sm-2"><a href="#body">Home.</a></li>
+                                <li class="col-sm-2"><a href="#aboutUs">About us.</a></li>
+                                <li class="col-sm-2"><a href="#portfolio">Portfolio.</a></li>
+                                <li class="col-sm-2"><a href="#blog">Blog.</a></li>
+                                <li class="col-sm-2"><a href="#contactUs">Contact us.</a></li>
                             </ul>
 
                         </div>
                        
 
-                        <div>
+                        <div class="col-1 language">
                             <select>
                                 <option>EN</option>
                                 <option>RU</option>
                             </select>
                         </div>
-                        <div>   
+                        <div class="col-2 button-contact-us">   
                             <button>Contact Us -> </button>
                         </div>
                     </div>
-                
+                <div>
             </nav>
         </header>
     
-        <div>
-            
-                <h1>The Spirit of <br/> Digital Agency</h1>
-                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-                <button>More About Us</button>
-                <button>Cet in Touch</button>
-           
+        <div class="block-description">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-6 align-self-center">
+                    <h1>The Spirit of <br/> Digital Agency</h1>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                    <button>More About Us</button>
+                    <button>Cet in Touch</button>
+                </div>
+                <div class="col-6 slider">
+                    <img src="multimedia/imageForSlider.png" />
+                </div>
+            </div>
+           </div>
         </div>
     </div> 
 
     <div class="portfolio">
-        <h2>See some of your <br> Creative work</h2>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="container">
+            <div class="row">
+            <h2 class="col-5">See some of your <br> Creative work</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+            </div>
         </div>
-        <div>
-            <p>See More of These</p>
+        <div class="learn-more">
+            <p><a href="#">See More of These</a></p>
         </div>
     </div>
 
-    <div class="contact">
-        <h2>Get in Touch</h2>
+    <div class="contact container">
+        <div class="row">
+            <h2 class="col-5">Get in Touch</h2>
+        </div>
         <form>
-            <input type="email" placeholder="Your email" />
-            <input type="text" placeholder="Subject" />
-            <input type="text" placeholder="Message here.." />
-            <input type="submit" name="Send Message" />
+            <div class="row justify-content-center">
+                <input type="email" placeholder="Your email" class="col-5" />
+                <input type="text" placeholder="Subject" class="col-5" />
+            </div>
+            <div class="row justify-content-center">
+                <input type="text" placeholder="Message here.." class="col-10" />
+            </div>
+            <div class="row justify-content-center">
+                <input type="submit" value="Send Message" class="col-3" />
+            </div>
         </form>
     </div>
 

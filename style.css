@@ -1,0 +1,45 @@
+/*main-block*/
+.main-block .navbar .row{
+  width: 100%;
+}
+
+.main-block .navbar .row .logo img{
+  width: 50%;
+}
+
+.main-block .navbar .row .main-menu li{
+  display: inline-block;
+}
+
+.main-block .block-description .slider img{
+  width: 100%;
+}
+ /*for all*/
+.main-block .block-description, .portfolio, .contact{
+  margin: 0 15% 0 15%;
+}
+
+/*portfolio*/
+.portfolio h2{
+  margin: 1% 0 3% 0;
+}
+
+.portfolio .container .row div{
+  margin: 0 1% 1% 1%;
+  height: 100px;
+  background-color: grey;
+}
+
+.portfolio .learn-more{
+  text-align: center;
+}
+
+.portfolio .learn-more p{
+  display: inline-block;
+}
+
+/*contact*/
+
+.contact h2{
+  margin: 1% 0 3% 0;
+}
