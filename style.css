@@ -1,19 +1,22 @@
 /*main-block*/
-.main-block .navbar .row{
+.main-block .navbar .container-fluid .row{
   width: 100%;
 }
 
-.main-block .navbar .row .logo img{
+.main-block .navbar .container-fluid .row .logo img{
   width: 50%;
 }
 
-.main-block .navbar .row .main-menu li{
-  display: inline-block;
+.main-block .navbar .container-fluid .row .language .form-control{
+  width: 60%;
 }
 
 .main-block .block-description .slider img{
   width: 100%;
 }
+
+
+
  /*for all*/
 .main-block .block-description, .portfolio, .contact{
   margin: 0 15% 0 15%;
