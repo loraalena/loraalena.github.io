@@ -3,11 +3,11 @@ $(document).on('ready', function() {
 	console.log(burger);
 
 	$("#burger").click(function(){
-		$("#menu").toggleClass("anvisible");
+		$("#menu").toggleClass("invisible");
 	})
 
 
 	$("#menu a").click(function(){
-			$("#menu").toggleClass("anvisible");
+			$("#menu").toggleClass("invisible");
 		})
 });
