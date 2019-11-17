@@ -8,7 +8,11 @@
   width: 50%;
 }
 
-.main-block .row .language .form-control{
+.main-block .header-for-big-screen .container-fluid .row .main-menu .list-inline a{
+  margin: 0 1% 0 1%;
+}
+
+.main-block .row .language .form-control-language{
   width: 50px;
 }
 
@@ -23,11 +27,6 @@
 .main-block .block-description .slider img{
   width: 100%;
 } 
-
-.main-block .container-fluid .row .main-menu .list-inline li{
-  padding: 0;
-  margin: 0;
-}
 
 .main-block .block-description .description-txt{
   color: grey;
@@ -45,6 +44,12 @@
   color: white;
   border: solid transparent 1px;
 } 
+
+.main-block .language .form-control-language{
+  border: transparent;
+}
+
+
 
  /*for all*/
 .main-block .block-description, .portfolio, .contact{
@@ -179,7 +184,7 @@ footer .social{
 }
 
 @media (max-width: 938px) { 
-  .main-block .header-for-big-screen .container-fluid .row .main-menu a, .button-contact-us .btn, .button-contact-us .btn i{
+  .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i{
     font-size: 80%;
   }
   
@@ -189,7 +194,7 @@ footer .social{
 }
 
 @media (max-width: 821px) { 
-  .main-block .header-for-big-screen .container-fluid .row .main-menu a, .button-contact-us .btn, .button-contact-us .btn i{
+  .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i{
     font-size: 70%;
   }
 }
@@ -232,7 +237,7 @@ footer .social{
   }
 
   .main-block .mobile-header .container .row .button-contact-us .btn-light{
-    width: 100px;
+    width: 120px;
   }
 
   .main-block .block-description{
