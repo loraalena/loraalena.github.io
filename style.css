@@ -46,6 +46,14 @@
 .contact h2{
   margin: 1% 0 3% 0;
 }
+.contact .container .row input, textarea{
+  margin: 0 1% 1% 1%;
+  height: 50px;
+  border: solid 1px grey;
+}
+.contact .container .row .mymsg{
+  height: 150px;
+  }
 
 
 
