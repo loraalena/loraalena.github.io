@@ -1,6 +1,7 @@
 /*main-block*/
 .main-block .navbar .container-fluid .row{
   width: 100%;
+  text-align: center;
 }
 
 .main-block .navbar .container-fluid .row .logo img{
@@ -11,10 +12,15 @@
   width: 60%;
 }
 
+
 .main-block .block-description .slider img{
   width: 100%;
-}
+} 
 
+.main-block .navbar .container-fluid .row .main-menu .list-inline li{
+  padding: 0;
+  margin: 0;
+}
 
 
  /*for all*/
@@ -72,3 +78,35 @@ footer .social{
   width: 50%;
   margin: 100px auto;
 }
+
+
+
+
+/*media*/
+
+
+@media (max-width: 1199.98px) { 
+
+
+}
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 767.98px) { 
+
+.slider{
+  display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
