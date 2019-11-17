@@ -55,7 +55,18 @@
   height: 150px;
   }
 
+/*footer*/
 
+footer{
+  text-align: center;
+  background-color: #6495ED;
+}
+
+footer .social{
+  margin: 0;
+}
+
+/*slide*/
 
 .slider {
   width: 50%;
