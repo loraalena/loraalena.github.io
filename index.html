@@ -19,9 +19,41 @@
 <body>
     <div class="main-block">
         <header>
-            <nav class="navbar">
                 <div class="container-fluid">
-                    <div class="row no-gutters justify-content-center">
+                    <!-- mobile header -->
+                    <div class="row mobile-header justify-content-center">
+                        <div class="col-2">
+
+                            <a href="#" id="burger"><i class="fas fa-bars"></i></a>
+
+                            <div class="menu-burger anvisible" id="menu-burger">
+                                <a href="#home">Home.</a>
+                                <a href="#aboutUs">About us.</a>
+                                <a href="#portfolio">Portfolio.</a>
+                                <a href="#blog">Blog.</a>
+                                <a href="#contactUs">Contact us.</a>
+                            </div>
+                        </div>
+                        <div class="col-1 logo">
+                            <a href="#home">
+                                <img src="multimedia/logo.png" alt="Doob">
+                            </a>
+                        </div>
+                        <div class="col-2 language">
+                            <select class="form-control">
+                                <option>EN</option>
+                                <option>RU</option>
+                            </select>
+                        </div>
+                        <div class="col-2 button-contact-us">   
+                            <button class="btn btn-light">Contact Us <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+
+                    <!-- header -->
+                    <div class="row no-gutters justify-content-center header-for-big-screen">
+
                         <div class="col-2 logo">
                             <a href="#body">
                                 <img src="multimedia/logo.png" alt="Doob">
@@ -30,6 +62,7 @@
                 
                         <div class="col-7 main-menu align-self-center">
                             <div class="container">
+
                             <ul class="row list-inline">
                                 <li class="col list-inline-item"><a href="#body">Home.</a></li>
                                 <li class="col list-inline-item"><a href="#aboutUs">About us.</a></li>
@@ -52,15 +85,15 @@
                         </div>
                     </div>
                 <div>
-            </nav>
+    
         </header>
     
-        <div class="block-description">
+        <div id="home" class="block-description">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col align-self-center">
+                    <div class="col align-self-center site-description">
                     <h1>The Spirit of <br/> Digital Agency</h1>
-                    <p>Vestibulum ac diam sit amet quam vehicula  elementum <br>amet est on dui. Nulla porttitor <br>accumsan tincidunt.</p>
+                    <p>Vestibulum ac diam sit amet quam vehicula  <br>elementum amet est on dui. Nulla porttitor <br>accumsan tincidunt.</p>
                     <button>More About Us</button>
                     <button>Cet in Touch</button>
                     </div>
@@ -83,10 +116,10 @@
           
     </div> 
 
-    <div class="portfolio">
+    <div id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
-            <h2 class="col-5">See some of your <br> Creative work</h2>
+            <h2 class="col">See some of your <br> Creative work</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col"></div>
@@ -104,7 +137,7 @@
         </div>
     </div>
 
-    <div class="contact">
+    <div id="contactUs" class="contact">
         <div class="container">
             <div class="row">
                 <h2 class="col">Get in Touch</h2>
@@ -145,10 +178,10 @@
 
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
-     <script src="slider.js" type="text/javascript">
-        
-    </script>
+    <script src="slider.js" type="text/javascript"></script>
+    <script src="burger.js" type="text/javascript"></script>
+    
 </body>
 </html>
