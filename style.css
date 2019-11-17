@@ -1,22 +1,23 @@
 /*main-block*/
 .main-block  .container-fluid .row{
   width: 100%;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .main-block .container-fluid .row .logo img{
   width: 50%;
 }
 
-.main-block .container-fluid .row .language .form-control{
+.main-block .row .language .form-control{
   width: 50px;
 }
 
-.main-block .container-fluid .row .language .form-control-language select{
-  width: 350px;
-  height: 350px;
-  
+.main-block .header-for-big-screen{
+    margin: 10px 0 0 0;
+}
+
+.main-block .btn-light a{
+  color: red;
 }
 
 .main-block .block-description .slider img{
@@ -27,23 +28,56 @@
   padding: 0;
   margin: 0;
 }
-.main-block .header-for-big-screen{
-    margin: 10px 0 0 0;
-  }
+
+.main-block .block-description .description-txt{
+  color: grey;
+}
+
+.main-block .block-description .container .row .simple-btn{
+  height: 40px;
+  border-radius: 30px;
+  color: #00008B;
+  padding:0 10px 0 10px;
+}
+
+.main-block .block-description .container .row .red-btn{
+  background-color: red;
+  color: white;
+  border: solid transparent 1px;
+} 
 
  /*for all*/
 .main-block .block-description, .portfolio, .contact{
   margin: 0 15% 0 15%;
 }
 
+body {
+  color: #00008B !important;
+  font-family: Gill Sans, sans-serif;
+}
+
+a{
+  color:#4169E0;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #00008B;
+}
+
+
 /*portfolio*/
+.portfolio{
+  margin-bottom: 10%; 
+}
+
 .portfolio h2{
   margin: 1% 0 3% 0;
 }
 
 .portfolio .container .row div{
   margin: 0 1% 1% 1%;
-  height: 100px;
+  height: 150px;
   background-color: grey;
 }
 
@@ -55,7 +89,21 @@
   display: inline-block;
 }
 
+.portfolio .learn-more p a{
+  color:red;
+}
+
+.portfolio .learn-more p a:hover{
+  color:red;
+  opacity: 0.7;
+}
+
+
+
 /*contact*/
+.contact{
+  margin-bottom: 5%;
+}
 
 .contact h2{
   margin: 1% 0 3% 0;
@@ -63,17 +111,48 @@
 .contact .container .row input, textarea{
   margin: 0 1% 1% 1%;
   height: 50px;
-  border: solid 1px grey;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  background-color: #F0F8FF;
 }
+
+.contact .container .row button{
+  height: 40px;
+  border-radius: 30px;
+  color: #00008B;
+  padding:0 10px 0 10px;
+  background-color: red;
+  color: white;
+  border: solid transparent 1px;
+}
+
 .contact .container .row .mymsg{
   height: 150px;
-  }
+}
+
+.contact .container .row p{
+  color:red;
+}
 
 /*footer*/
 
 footer{
+  padding-top: 3%; 
   text-align: center;
-  background-color: #6495ED;
+  background-color: #191970;
+  color: white;
+}
+
+footer h2{
+  color:red;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color:  #87CEFA;
 }
 
 footer .social{
@@ -115,58 +194,68 @@ footer .social{
   }
 }
 
-@media (max-width: 767.98px) { 
-
+@media (max-width: 768px) { 
+  /*main block*/
   .main-block .block-description .container .row .slider {
     display: none;
+  }
+
+  .main-block .mobile-header{
+    margin: 0 15% 0 15%;
+    display: block;
   }
 
   .main-block .header-for-big-screen{
     display: none;
   }
-  
-  .main-block .mobile-header{
+
+  .main-block .mobile-header .menu-burger .menu a{
     display: block;
   }
 
-  .portfolio .container-fluid .row h2{
-    margin-top: 30px;
-  }
-
-  .menu-burger .menu a{
-    display: block;
-  }
-
-  .logo{
+  .main-block .mobile-header .container .row .logo{
     text-align: right;
     margin: 10px;
   }
 
-  .menu-burger{
-    
+  .main-block .mobile-header .container .row .logo img{
+    width: 30%;
+  }
+
+  .main-block .mobile-header .menu-burger{
     text-align: left;
     margin: 10px;
-  }
-
-  .mobile-header{
-    margin: 0 15% 0 15%;
-  }
-
-  .logo img{
-    width: 30%;
   }
 
   #burger i{
     font-size: 25px;
   }
+
+  .main-block .mobile-header .container .row .button-contact-us .btn-light{
+    width: 100px;
+  }
+
+  .main-block .block-description{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
   
+  /*portfolio*/
+  .portfolio .container-fluid .row h2{
+    margin-top: 30px;
+  }
+
+  /*contact*/
+  .contact .container .row button{
+    font-size: 12px;
+  }
 
 
 }
 
 
 
-.anvisible{
+.invisible{
   display: none
 }
 

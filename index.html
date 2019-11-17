@@ -22,12 +22,12 @@
                 <!-- mobile header -->
                 <div class="mobile-header">
                     <div class="container">
-                        <div class="row">
+                        <div class="row align-items-center">
      
                             <div class="col menu-burger">
                                 <a href="#" id="burger"><i class="fas fa-bars"></i></a>
 
-                                <div class="menu anvisible" id="menu">
+                                <div class="menu invisible" id="menu">
                                     <a href="#home">Home.</a>
                                     <a href="#aboutUs">About us.</a>
                                     <a href="#portfolio">Portfolio.</a>
@@ -44,9 +44,9 @@
 
                         </div>
             
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center align-items-center">
                             <div class="col-3 language">
-                                <select class="form-control-language">
+                                <select class="form-control">
                                     <option>EN</option>
                                     <option>RU</option>
                                 </select>
@@ -65,8 +65,8 @@
                 <!-- header -->
                 <div class="header-for-big-screen">
                     <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-2 logo">
+                        <div class="row">
+                            <div class="col-2 logo align-self-center">
                                 <a href="#home">
                                     <img src="multimedia/logo.png" alt="Doob">
                                 </a>
@@ -85,15 +85,15 @@
                                 </div>
                             </div>
                        
-                            <div class="col-1 language">
+                            <div class="col-1 language align-self-center">
                                 <select class="form-control">
                                     <option>EN</option>
                                     <option>RU</option>
                                 </select>
                             </div>
 
-                            <div class="col-2 button-contact-us">
-                                <button class="btn btn-light"><a href="#contactUs">Contact Us 
+                            <div class="col-2 button-contact-us align-self-center">
+                                <button class="btn btn-light"><a href="#contactUs" class="red-txt">Contact Us 
                                     <i class="fa fa-arrow-right"></i></a>
                                 </button>
                             </div>
@@ -107,9 +107,9 @@
                 <div class="row justify-content-center">
                     <div class="col align-self-center site-description">
                         <h1>The Spirit of <br/> Digital Agency</h1>
-                        <p>Vestibulum ac diam sit amet quam vehicula  <br>elementum amet est on dui. Nulla porttitor <br>accumsan tincidunt.</p>
-                        <button>More About Us</button>
-                        <button>Cet in Touch</button>
+                        <p class="description-txt">Vestibulum ac diam sit amet quam vehicula  <br>elementum amet est on dui. Nulla porttitor <br>accumsan tincidunt.</p>
+                        <button class="red-btn simple-btn">More About Us</button>
+                        <button class="simple-btn">Cet in Touch</button>
                     </div>
                 
                     <div class="lazy slider col">
@@ -154,9 +154,12 @@
     <div id="contactUs" class="contact">
         <div class="container">
             <div class="row">
+                <p class="col">CONTACT US</h2>
+            </div>
+            <div class="row">
                 <h2 class="col">Get in Touch</h2>
             </div>
-            <form >
+            <form>
                 <div class="row">
                     <input type="email" placeholder="Your email" class="col" />
                     <input type="text" placeholder="Subject" class="col" />
@@ -165,7 +168,7 @@
                     <textarea class="col mymsg" placeholder="Message here.."></textarea>  
                 </div>
                 <div class="row justify-content-center">
-                    <input class="submit" type="submit" value="Send Message" class="col-2" />
+                    <button class="col-3 submit red-btn simple-btn" >Send Message</button> 
                 </div>
             </form>
         </div>
@@ -173,7 +176,7 @@
 
     <footer>
         <p>DOOB</p>
-        <h2>CREATIVE ABOVE</h2>
+        <h2 class="red-txt">CREATIVE ABOVE</h2>
         <ul class="main-menu-in-footer list-inline">
             <li class="list-inline-item"><a href="#body">Home.</a></li>
             <li class="list-inline-item"><a href="#aboutUs">About us.</a></li>
@@ -182,7 +185,7 @@
             <li class="list-inline-item"><a href="#contactUs">Contact us.</a></li>
         </ul>
 
-        <p>2019 - Doob, All Right Reserved </p>
+        <p>&copy 2019 - Doob, All Right Reserved </p>
         <ul class="social list-inline">
             <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
