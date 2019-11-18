@@ -99,8 +99,7 @@ a:hover{
 }
 
 .portfolio .learn-more p a:hover{
-  color:red;
-  opacity: 0.7;
+  color:#8B0000;
 }
 
 
@@ -206,7 +205,6 @@ footer .social{
   }
 
   .main-block .mobile-header{
-    margin: 0 15% 0 15%;
     display: block;
   }
 
@@ -240,6 +238,10 @@ footer .social{
     width: 120px;
   }
 
+  .main-block .mobile-header .container .row .language, .button-contact-us{
+    text-align:center;
+  }
+
   .main-block .block-description{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -256,6 +258,18 @@ footer .social{
   }
 
 
+  .main-block .block-description, .portfolio, .contact{
+    margin: 7% 1% 7% 1%;
+  }
+
+  #menu{
+    position: absolute;
+    background: gainsboro;
+    z-index: 20;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -5px;
+  }
 }
 
 
