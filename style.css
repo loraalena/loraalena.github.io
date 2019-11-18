@@ -1,281 +1,277 @@
 /*main-block*/
-.main-block  .container-fluid .row{
-  width: 100%;
-  text-align: center; 
+.main-block .container-fluid .row {
+    width: 100%;
+    text-align: center;
 }
 
-.main-block .container-fluid .row .logo img{
-  width: 50%;
+.main-block .container-fluid .row .logo img {
+    width: 50%;
 }
 
-.main-block .header-for-big-screen .container-fluid .row .main-menu .list-inline a{
-  margin: 0 1% 0 1%;
+.main-block .header-for-big-screen .container-fluid .row .main-menu .list-inline a {
+    margin: 0 1% 0 1%;
 }
 
-.main-block .row .language .form-control-language{
-  width: 50px;
+.main-block .row .language .form-control-language {
+    width: 50px;
 }
 
-.main-block .header-for-big-screen{
+.main-block .header-for-big-screen {
     margin: 10px 0 0 0;
 }
 
-.main-block .btn-light a{
-  color: red;
+.main-block .btn-light a {
+    color: red;
 }
 
-.main-block .block-description .slider img{
-  width: 100%;
-} 
-
-.main-block .block-description .description-txt{
-  color: grey;
+.main-block .block-description .slider img {
+    width: 100%;
 }
 
-.main-block .block-description .container .row .simple-btn{
-  height: 40px;
-  border-radius: 30px;
-  color: #00008B;
-  padding:0 10px 0 10px;
+.main-block .block-description .description-txt {
+    color: grey;
 }
 
-.main-block .block-description .container .row .red-btn{
-  background-color: red;
-  color: white;
-  border: solid transparent 1px;
-} 
+.main-block .block-description .container .row .simple-btn {
+    height: 40px;
+    border-radius: 30px;
+    color: #00008B;
+    padding: 0 10px 0 10px;
+}
 
-.main-block .language .form-control-language{
-  border: transparent;
+.main-block .block-description .container .row .red-btn {
+    background-color: red;
+    color: white;
+    border: solid transparent 1px;
+}
+
+.main-block .language .form-control-language {
+    border: transparent;
 }
 
 
-
- /*for all*/
-.main-block .block-description, .portfolio, .contact{
-  margin: 0 15% 0 15%;
+/*for all*/
+.main-block .block-description, .portfolio, .contact {
+    margin: 0 15% 0 15%;
 }
 
 body {
-  color: #00008B !important;
-  font-family: Gill Sans, sans-serif;
+    color: #00008B !important;
+    font-family: Gill Sans, sans-serif;
 }
 
-a{
-  color:#4169E0;
+a {
+    color: #4169E0;
 }
 
-a:hover{
-  text-decoration: none;
-  color: #00008B;
+a:hover {
+    text-decoration: none;
+    color: #00008B;
 }
 
 
 /*portfolio*/
-.portfolio{
-  margin-bottom: 10%; 
+.portfolio {
+    margin-bottom: 10%;
 }
 
-.portfolio h2{
-  margin: 1% 0 3% 0;
+.portfolio h2 {
+    margin: 1% 0 3% 0;
 }
 
-.portfolio .container .row div{
-  margin: 0 1% 1% 1%;
-  height: 150px;
-  background-color: grey;
+.portfolio .container .row div {
+    margin: 0 1% 1% 1%;
+    height: 150px;
+    background-color: grey;
 }
 
-.portfolio .learn-more{
-  text-align: center;
+.portfolio .learn-more {
+    text-align: center;
 }
 
-.portfolio .learn-more p{
-  display: inline-block;
+.portfolio .learn-more p {
+    display: inline-block;
 }
 
-.portfolio .learn-more p a{
-  color:red;
+.portfolio .learn-more p a {
+    color: red;
 }
 
-.portfolio .learn-more p a:hover{
-  color:#8B0000;
+.portfolio .learn-more p a:hover {
+    color: #8B0000;
 }
-
 
 
 /*contact*/
-.contact{
-  margin-bottom: 5%;
+.contact {
+    margin-bottom: 5%;
 }
 
-.contact h2{
-  margin: 1% 0 3% 0;
-}
-.contact .container .row input, textarea{
-  margin: 0 1% 1% 1%;
-  height: 50px;
-  border: solid 1px transparent;
-  border-radius: 10px;
-  background-color: #F0F8FF;
+.contact h2 {
+    margin: 1% 0 3% 0;
 }
 
-.contact .container .row button{
-  height: 40px;
-  border-radius: 30px;
-  color: #00008B;
-  padding:0 10px 0 10px;
-  background-color: red;
-  color: white;
-  border: solid transparent 1px;
+.contact .container .row input, textarea {
+    margin: 0 1% 1% 1%;
+    height: 50px;
+    border: solid 1px transparent;
+    border-radius: 10px;
+    background-color: #F0F8FF;
 }
 
-.contact .container .row .mymsg{
-  height: 150px;
+.contact .container .row button {
+    height: 40px;
+    border-radius: 30px;
+    color: #00008B;
+    padding: 0 10px 0 10px;
+    background-color: red;
+    color: white;
+    border: solid transparent 1px;
 }
 
-.contact .container .row p{
-  color:red;
+.contact .container .row .mymsg {
+    height: 150px;
+}
+
+.contact .container .row p {
+    color: red;
 }
 
 /*footer*/
 
-footer{
-  padding-top: 3%; 
-  text-align: center;
-  background-color: #191970;
-  color: white;
+footer {
+    padding-top: 3%;
+    text-align: center;
+    background-color: #191970;
+    color: white;
 }
 
-footer h2{
-  color:red;
+footer h2 {
+    color: red;
 }
 
-footer a{
-  color: white;
+footer a {
+    color: white;
 }
 
-footer a:hover{
-  color:  #87CEFA;
+footer a:hover {
+    color: #87CEFA;
 }
 
-footer .social{
-  margin: 0;
+footer .social {
+    margin: 0;
 }
 
 /*slide*/
 
 .main-block .block-description .container .row .slider {
-  width: 50%;
-  margin: 100px auto;
+    width: 50%;
+    margin: 100px auto;
 }
-
-
 
 
 /*media*/
 
 
-@media (min-width: 936px) { 
-    .mobile-header{
-      display: none;
+@media (min-width: 936px) {
+    .mobile-header {
+        display: none;
     }
 }
 
-@media (max-width: 938px) { 
-  .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i{
-    font-size: 80%;
-  }
-  
-  .main-block .mobile-header{
-      display: none;
+@media (max-width: 938px) {
+    .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i {
+        font-size: 80%;
+    }
+
+    .main-block .mobile-header {
+        display: none;
     }
 }
 
-@media (max-width: 821px) { 
-  .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i{
-    font-size: 70%;
-  }
+@media (max-width: 821px) {
+    .main-block .header-for-big-screen .container-fluid .row .button-contact-us .btn, .button-contact-us .btn i {
+        font-size: 70%;
+    }
 }
 
-@media (max-width: 768px) { 
-  /*main block*/
-  .main-block .block-description .container .row .slider {
-    display: none;
-  }
+@media (max-width: 768px) {
+    /*main block*/
+    .main-block .block-description .container .row .slider {
+        display: none;
+    }
 
-  .main-block .mobile-header{
-    display: block;
-  }
+    .main-block .mobile-header {
+        display: block;
+    }
 
-  .main-block .header-for-big-screen{
-    display: none;
-  }
+    .main-block .header-for-big-screen {
+        display: none;
+    }
 
-  .main-block .mobile-header .menu-burger .menu a{
-    display: block;
-  }
+    .main-block .mobile-header .menu-burger .menu a {
+        display: block;
+    }
 
-  .main-block .mobile-header .container .row .logo{
-    text-align: right;
-    margin: 10px;
-  }
+    .main-block .mobile-header .container .row .logo {
+        text-align: right;
+        margin: 10px;
+    }
 
-  .main-block .mobile-header .container .row .logo img{
-    width: 30%;
-  }
+    .main-block .mobile-header .container .row .logo img {
+        width: 30%;
+    }
 
-  .main-block .mobile-header .menu-burger{
-    text-align: left;
-    margin: 10px;
-  }
+    .main-block .mobile-header .menu-burger {
+        text-align: left;
+        margin: 10px;
+    }
 
-  #burger i{
-    font-size: 25px;
-  }
+    #burger i {
+        font-size: 25px;
+    }
 
-  .main-block .mobile-header .container .row .button-contact-us .btn-light{
-    width: 120px;
-  }
+    .main-block .mobile-header .container .row .button-contact-us .btn-light {
+        width: 120px;
+    }
 
-  .main-block .mobile-header .container .row .language, .button-contact-us{
-    text-align:center;
-  }
+    .main-block .mobile-header .container .row .language, .button-contact-us {
+        text-align: center;
+    }
 
-  .main-block .block-description{
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  
-  /*portfolio*/
-  .portfolio .container-fluid .row h2{
-    margin-top: 30px;
-  }
+    .main-block .block-description {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 
-  /*contact*/
-  .contact .container .row button{
-    font-size: 12px;
-  }
+    /*portfolio*/
+    .portfolio .container-fluid .row h2 {
+        margin-top: 30px;
+    }
+
+    /*contact*/
+    .contact .container .row button {
+        font-size: 12px;
+    }
 
 
-  .main-block .block-description, .portfolio, .contact{
-    margin: 7% 1% 7% 1%;
-  }
+    .main-block .block-description, .portfolio, .contact {
+        margin: 7% 1% 7% 1%;
+    }
 
-  #menu{
-    position: absolute;
-    background: gainsboro;
-    z-index: 20;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: -5px;
-  }
+    #menu {
+        position: absolute;
+        background: gainsboro;
+        z-index: 20;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: -5px;
+    }
 }
 
 
-
-.invisible{
-  display: none
+.invisible {
+    display: none
 }
 
 
